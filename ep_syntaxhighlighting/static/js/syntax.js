@@ -2,8 +2,8 @@ var padcookie = require('ep_etherpad-lite/static/js/pad_cookie').padcookie;
 
 exports.aceInitInnerdocbodyHead = function (hook_name, args, cb)
 {
-	args.iframeHTML.push('<link rel="stylesheet" type="text/css" href="/static/plugins/ep_syntaxhighlighting/static/css/shCore.css"/>');
-	args.iframeHTML.push('<link rel="stylesheet" type="text/css" href="/static/plugins/ep_syntaxhighlighting/static/css/shThemeDefault.css"/>');
+	args.iframeHTML.push('<link rel="stylesheet" type="text/css" href="../static/plugins/ep_syntaxhighlighting/static/css/shCore.css"/>');
+	args.iframeHTML.push('<link rel="stylesheet" type="text/css" href="../static/plugins/ep_syntaxhighlighting/static/css/shThemeDefault.css"/>');
 }	
 
 exports.acePostWriteDomLineHTML = function (hook_name, args, cb)

@@ -6,7 +6,7 @@ Available syntaxes are displayed in a select element in the etherpad-lite menu b
 ## Adding Syntaxes:
 To add a new syntax variant, copy the javascript file for the new syntax into the EP_ROOT/node_modules/ep_syntaxhighlighting/static/js directory, then add it to the end of EP_ROOT/node_modules/ep_syntaxhighlighting/templates/syntaxHighlightingScripts.ejs as follows:
 
-<script src="/static/plugins/ep_syntaxhighlighting/static/js/shBrushCSharp.js"></script>
+<script src="../static/plugins/ep_syntaxhighlighting/static/js/shBrushCSharp.js"></script>
 
 Finally, add an option to EP_ROOT/node_modules/ep_syntaxhighlighting/templates/syntaxHighlightingEditbarButtons.ejs such as:
 <option value="csharp">C#</option>

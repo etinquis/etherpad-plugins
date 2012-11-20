@@ -11,7 +11,7 @@
     "node": "*"
   },
   "dependencies": {
-    "ep_etherpad-lite": "1.1.x"
+    "ep_etherpad-lite": "1.2.x"
   },
   "devDependencies": {},
   "optionalDependencies": {}

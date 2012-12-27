@@ -10,9 +10,7 @@
   "engines": {
     "node": "*"
   },
-  "dependencies": {
-    "ep_etherpad-lite": "1.1.x"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {}
 }

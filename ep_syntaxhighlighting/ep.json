@@ -5,7 +5,8 @@
 		"hooks" : {
 			"eejsBlock_scripts": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_scripts",
 			"eejsBlock_styles": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_styles",
-			"eejsBlock_editbarMenuRight": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_editbarMenuRight"
+			"eejsBlock_editbarMenuRight": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_editbarMenuRight",
+			"postAceInit": "ep_syntaxhighlighting/static/js/syntax:postAceInit"
 		},
 		"client_hooks" : {
 			"acePostWriteDomLineHTML": "ep_syntaxhighlighting/static/js/syntax:acePostWriteDomLineHTML",

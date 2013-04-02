@@ -36,3 +36,12 @@ exports.eejsBlock_styles = function (hook_name, args, cb)
 exports.eejsBlock_editbarMenuRight = function (hook_name, args, cb) {
 	args.content = require('ep_etherpad-lite/node/eejs/').require("ep_syntaxhighlighting/templates/syntaxHighlightingEditbarButtons.ejs") + args.content;
 }
+
+exports.postAceInit = function (hook_name, args, cb)
+{
+	// Set SELECT dropdown to currently-selected value
+	var element = document.getElementById('syntaxes');
+	var brush = padcookie.getPref("SH_BRUSH");
+	if (brush !== undefined)
+		element.value = brush;
+}

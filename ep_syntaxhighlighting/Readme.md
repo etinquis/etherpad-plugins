@@ -1,3 +1,7 @@
+This plugin is no longer supported... See https://github.com/LaKing/ep_codepad for an alternative.
+
+--------------------
+
 # SyntaxHighlighter plugin for etherpad-lite
 
 Based on a modified version of Alex Gorbatchev's [SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/).

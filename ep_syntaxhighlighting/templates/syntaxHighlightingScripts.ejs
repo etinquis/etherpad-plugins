@@ -2,7 +2,9 @@
 <script src="/static/plugins/ep_syntaxhighlighting/static/js/XRegExp.js"></script>
 <script src="/static/plugins/ep_syntaxhighlighting/static/js/shCore.js"></script>
 <script type="text/javascript">
-	require.define("shCore", function(require, exports, module) { exports.SyntaxHighlighter = SyntaxHighlighter; });
+	require.define("shCore.js", function(require, exports, module) {
+        exports.SyntaxHighlighter = SyntaxHighlighter; 
+    });
 </script>
 <script src="/static/plugins/ep_syntaxhighlighting/static/js/shBrushJava.js"></script>
 <script src="/static/plugins/ep_syntaxhighlighting/static/js/shBrushPhp.js"></script>

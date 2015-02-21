@@ -5,12 +5,12 @@
 		"hooks" : {
 			"eejsBlock_scripts": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_scripts",
 			"eejsBlock_styles": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_styles",
-			"eejsBlock_editbarMenuRight": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_editbarMenuRight",
-			"postAceInit": "ep_syntaxhighlighting/static/js/syntax:postAceInit"
+			"eejsBlock_editbarMenuRight": "ep_syntaxhighlighting/static/js/syntax:eejsBlock_editbarMenuRight"
 		},
 		"client_hooks" : {
 			"acePostWriteDomLineHTML": "ep_syntaxhighlighting/static/js/syntax:acePostWriteDomLineHTML",
-			"aceInitInnerdocbodyHead": "ep_syntaxhighlighting/static/js/syntax:aceInitInnerdocbodyHead"
+			"aceInitInnerdocbodyHead": "ep_syntaxhighlighting/static/js/syntax:aceInitInnerdocbodyHead",
+			"postAceInit": "ep_syntaxhighlighting/static/js/syntax:postAceInit"
 		}
 	}]
 }

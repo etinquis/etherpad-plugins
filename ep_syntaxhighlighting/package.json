@@ -2,7 +2,7 @@
   "author": "Martyn York <etinquis@gmail.com>",
   "name": "ep_syntaxhighlighting",
   "description": "Adds syntax highlighting to etherpad-lite",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/etinquis/etherpad-plugins.git"

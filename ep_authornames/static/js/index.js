@@ -27,7 +27,6 @@ exports.acePostWriteDomLineHTML = function(hook_name, args, cb){
 	$(args.node).find('span').each(function(span){
 		$(this).children('span').map(
 			function() {
-				console.dir(this); 
 				if(this.classList[0]){
 					var mainClass = this.classList[0];
 					if(mainClass.substring(0,7) === 'author-') {

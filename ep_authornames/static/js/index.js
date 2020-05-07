@@ -25,7 +25,7 @@ exports.acePostWriteDomLineHTML = function(hook_name, args, cb){
 	};
 	
 	$(args.node).find('span').each(function(span){
-		$(this).children('span').map(
+                $(this).map(
 			function() {
 				if(this.classList[0]){
 					var mainClass = this.classList[0];
